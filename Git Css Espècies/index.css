@@ -1,0 +1,172 @@
+body
+{
+background-color:white;
+font-family: "Droid Serif";
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+a
+{
+    text-decoration: none;
+color: black;
+}
+.titulo
+{
+font-weight: bold;
+color: black;
+}
+div
+{
+padding: 50px;
+height:450px;
+width: 400px;
+border: solid black 2px;
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 20px;
+background-color: #8bc3cc;
+font-size: 18px;
+}
+
+h3
+{
+    font-size:25px ;
+}
+.extincio
+{
+color: black;
+height:250px;
+width: 900px;
+background-color: #8bc3cc;
+font-size: 18px;
+}
+#Cabecera
+{
+height:10px;
+width: 1000px;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20% 50% 10% 10% 10%;
+    grid-template-rows: 100%;
+}
+
+#index
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#final
+{
+height:250px;
+width: 900px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.llicencia
+{
+    padding: 20px;
+    height:200px;
+    width: 600px;
+    border: none;
+
+}
+.seguirnos
+{
+    padding: 5px;
+    height:200px;
+    width: 150px;
+    border: none;
+}
+#biblio {
+    height: 100px;
+    width: 900px;
+    background-size: 420px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/371/447/831/pokemon-squirtle-pokemon-starter-pokemon-water-pokemon-wallpaper-preview.jpg");
+}
+@media (max-width: 500px)
+{
+    div
+    {
+        padding: 50px;
+        height:400px;
+        width: 350px;
+        border: solid black 2px;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #8bc3cc;
+        font-size: 12px;
+    }
+    #Cabecera
+    {
+        height:10px;
+        width: 350px;
+        display:flex;
+        flex-direction: row;
+        justify-content: start;
+        display: grid;
+        grid-template-columns: 20% 25% 15% 15% 15%;
+        grid-template-rows: 100%;
+    }
+    #index
+    {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .extincio {
+        color: black;
+        height: 300px;
+        width: 350px;
+        background-color: #8bc3cc;
+        font-size: 14px;
+    }
+    #biblio
+    {
+        height: 100px;
+        width: 350px;
+        background-size: 450px;
+        background-position: center;
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/371/447/831/pokemon-squirtle-pokemon-starter-pokemon-water-pokemon-wallpaper-preview.jpg");
+    }
+    #final
+    {
+
+        height:300px;
+        width: 350px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 50% 40%;
+    }
+    .llicencia
+    {
+        padding: 20px;
+        height:50px;
+        width: 300px;
+        border: none;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+
+    }
+    .seguirnos
+    {
+        padding: 5px;
+        height:100px;
+        width: 300px;
+        border: none;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+}
