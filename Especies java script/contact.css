@@ -1,0 +1,56 @@
+form
+{
+    padding: 5px;
+    height:310px;
+    width: 400px;
+    background-color: #dfa000;
+    border: solid black 1px;
+}
+#coleccion
+{
+    color: #a30000;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.highlited
+{
+    background-color: #c82828;
+    transition-duration: 3s;
+}
+.exit
+{
+    font-size: 40px;
+    transition-duration: 5s;
+    background-image:url("https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f44d.svg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+a
+{
+    color: black;
+    font-size: 20px;
+}
+#cabecera
+{
+
+    height:310px;
+    width: 400px;
+    text-align: center;
+    background-size: 450px;
+    background-position: center;
+    background-image: url("https://a.storyblok.com/f/178900/1255x705/87c0f95de1/digimon_adventure_25th_anniversary_hero.jpg/m/1200x0/filters:quality(95)format(webp)");
+    margin-bottom: 20px;
+
+}
+#relleno
+{
+    height:500px;
+    width: 300px;
+}
+#index
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
